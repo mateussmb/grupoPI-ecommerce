@@ -124,9 +124,20 @@
     font-size: 14px;
     width: 120px;
     color: #DEE0E4;
-    cursor: pointer;
+    
 }
 
+
+.Ccliente{
+    display: flex;
+    flex-direction: row;
+}
+.sair{
+    cursor: pointer;
+}
+.cc{
+    cursor: pointer;
+}
 .login .iconify{
     height: 66px;
     width: 66px;
