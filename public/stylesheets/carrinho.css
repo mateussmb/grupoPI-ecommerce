@@ -62,7 +62,7 @@ body {
 
 
 .addres {
-    display: block;
+    display: grid;
     background-color: white;
     align-items: center;
     justify-content: center;
