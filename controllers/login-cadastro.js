@@ -3,5 +3,5 @@ const loginCadastro = {
         res.render("testando login")
     }
 }
-
+//testando login
 module.exports.loginCadastro = loginCadastro
