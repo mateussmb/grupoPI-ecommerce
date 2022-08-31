@@ -1,7 +1,7 @@
 const loginCadastro = {
     index:(req,res) =>{        
-        res.render("testando login")
+        res.render("./pages/login")
     }
 }
 //testando login
-module.exports.loginCadastro = loginCadastro
+module.exports = loginCadastro
