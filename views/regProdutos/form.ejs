@@ -1,0 +1,25 @@
+
+
+<body>
+    <form
+        method="POST"
+        action="/produtos/"
+        enctype="multipart/form-data"
+        >
+        <div class="column">
+            <a class="go-back" href="/produtos/"><i class="fas fa-chevron-left"></i> Voltar</a>
+            <div class="label">Imagem produto</div>
+            <input type="file" name="avatar" required>
+            <div style="height: 18px"></div>
+            <div class="label">Name do produto</div>
+            <input type="text" name="name" required>
+            <div style="height: 18px"></div>
+            <div class="label"></div>
+            <input type="text" name="email" required>
+            <div style="height: 24px"></div>
+            <button class="button bg-success">
+                <i class="fas fa-save"></i>
+            </button>
+        </div>
+    </form>
+</body>
