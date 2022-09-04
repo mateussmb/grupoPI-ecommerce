@@ -3,7 +3,7 @@ const router = express.Router();
 
 const produtoController = require('../controllers/ProdutoController');
 
-router.get('/',produtoController.produtos);
+router.get('/',produtoController.index);
 
 router.get('/create', produtoController.createForm);
 
