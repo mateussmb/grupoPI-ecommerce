@@ -1,12 +1,13 @@
 const express = require('express')
 const router = express.Router();
 
-const produtoController = require('../controllers/ProdutoController');
-
-router.get('/',produtoController.index);
-
-router.get('/create', produtoController.createForm);
-
-router.post('/',produtoController.createForm);
-
+const ProdutoController = require('../controllers/ProdutoController');
+//===================================================================
+//*Rota para listar todos os produtos
+//===================================================================
+router.get('/',ProdutoController.index);
+//===================================================================
+//*Rota para mostrar formulario de cadastro de produto
+//===================================================================
+router.get('/create',ProdutoController.create);
 module.exports = router;

@@ -1,4 +1,5 @@
-/*const fs = require('fs');
+
+const fs = require('fs');
 const {v4} = require('uuid');
 
 let dbProdutos = require('../database/bdProdutos.json');
@@ -12,13 +13,14 @@ const writeToDB = () => {
 const Produto = {
     findAll:() => dbProdutos.produtos,
 
-    create:(produto) =>{
-        dbProdutos.produtos.push({id: v4(), ...produto });
+    create:(regProdutos) =>{
+        dbProdutos.produtos.push({id: v4(), ...regProdutos });
         writeToDB();
     },
     delete:(id) => {
-
+        const produtoIndex = bdProdutos.produtos.findIndex(regProdutos => produtos.id===id);
+        bdProdutos.produtos[produtoIndex] = {id , ... produto};
     }
 }
 
-module.exports = Produto; */
+module.exports = Produto; 
