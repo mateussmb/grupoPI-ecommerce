@@ -1,14 +1,22 @@
-const produtoController = {
+const Produto = require("../models/produtosModels");
+
+const ProdutoController = {
     index:(req ,res) => {
-        // renderizando inicio da Page Produto.
         res.render('regProdutos/index');
     },
+    createForm:(req, res) => {
 
-    createForm:(req, res) =>{
-        //renderizando formulario cadastro de produtos
-        res.render('reqProdutos/form');
+        res.render('regProdutos/form');
     },
-        
+    create:(req, res) => {
+        const produto = req.body;
+        console.log(produto)
+        const imagemProd = req.file.fileName;
+        Produto.create(produto, imagemProd);
+        res.redirect('/cadastro');
+        //req.render('regProdutos/form');
+    },
+
 }
 
-module.exports = produtoController;
+module.exports = ProdutoController;
