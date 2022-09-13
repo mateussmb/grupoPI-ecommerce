@@ -2,24 +2,23 @@
 const fs = require('fs');
 const {v4} = require('uuid');
 
-let dbProdutos = require('../database/bdProdutos.json');
+let bancoProdutos = require('../database/bancoProdutos.json');
 
 
 const writeToDB = () => {
-    const json = JSON.stringify(dbProdutos);
-    fs.writeFileSync('/database/dbProdutos', json);
+    const json = JSON.stringify(bancoProdutos);
+    fs.writeFileSync('database/bancoProdutos.json', json);
 }
 
 const Produto = {
-    findAll:() => dbProdutos.produtos,
+   findAll:() => bancoProdutos.produtos,
 
-    create:(regProdutos) =>{
-        dbProdutos.produtos.push({id: v4(), ...regProdutos });
+    create:(name,avatar) =>{
+        bancoProdutos.produtos.push({ id : v4(), ...name, avatar });
         writeToDB();
     },
-    delete:(id) => {
-        const produtoIndex = bdProdutos.produtos.findIndex(regProdutos => produtos.id===id);
-        bdProdutos.produtos[produtoIndex] = {id , ... produto};
+    delete:() =>{
+
     }
 }
 

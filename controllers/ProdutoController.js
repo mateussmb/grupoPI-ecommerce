@@ -2,7 +2,8 @@ const Produto = require("../models/produtosModels");
 
 const ProdutoController = {
     index:(req ,res) => {
-        res.render('regProdutos/index');
+        
+        res.render('regProdutos/index',);
     },
     createForm:(req, res) => {
 
@@ -11,9 +12,9 @@ const ProdutoController = {
     create:(req, res) => {
         const produto = req.body;
         console.log(produto)
-        const imagemProd = req.file.fileName;
+        const imagemProd = req.file.filename;
         Produto.create(produto, imagemProd);
-        res.redirect('/cadastro');
+        res.redirect('/produto');
         //req.render('regProdutos/form');
     },
 
