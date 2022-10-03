@@ -1,6 +1,6 @@
 const checkoutController = {
     index:(req,res) =>{
-        res.render("pages/checkout")
+        res.render("./pages/checkout")
     }
 }
 

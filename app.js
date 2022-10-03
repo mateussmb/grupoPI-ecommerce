@@ -3,10 +3,12 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+
+const indexRouter = require('./routes/index');
+const usersRouter = require('./routes/usuario.Routes');
 const initialRouter = require('./routes/prod_initial.Routes');
-var produtosRoutes = require('./routes/produtos.Routes');
+const produtosRoutes = require('./routes/produtos.Routes');
+const session = require('express-session');
 
 var app = express();
 
@@ -20,10 +22,16 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public/images')));
+app.use(session({
+  secret: "Kabum",
+  resave: true,
+  saveUninitialized: true
+}));
+
 
 //rotas
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/usuario', usersRouter);
 app.use('/cadastro',initialRouter);
 app.use('/produto',produtosRoutes);
 
