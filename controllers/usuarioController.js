@@ -1,4 +1,17 @@
-const {createMenuObject} = require('../helpers/createMenuObject')
+
+const usuarioController = {
+
+        index:(req, res) =>{
+        res.render("pages/cadastroUsuario")
+    }
+
+    
+}
+ module.exports = usuarioController
+
+
+
+/*const {createMenuObject} = require('../helpers/createMenuObject')
 
 const login = (req, res) => {
     res.render ('pages/login')
@@ -21,4 +34,6 @@ const cadastro = (req, res) => {
 
 module.exports.login = login
 module.exports.cadastro = cadastro
-module.exports.checkout = checkout
+module.exports.checkout = checkout 
+
+*/

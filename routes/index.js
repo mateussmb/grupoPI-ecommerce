@@ -1,11 +1,12 @@
-var express = require('express');
+const express = require('express');
 const homeController = require('../controllers/homeController');
 const pagamentoController = require('../controllers/pagamentoController');
 const carrinhoController = require('../controllers/carrinhoController');
 const checkoutController = require('../controllers/checkoutController');
 const  loginController = require('../controllers/loginController');
 
-var router = express.Router();
+
+const router = express.Router();
 
 router.get('/', homeController.index);
 router.get('/pagamento', pagamentoController.index);
