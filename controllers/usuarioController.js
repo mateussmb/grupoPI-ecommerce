@@ -1,9 +1,10 @@
 
 const usuarioController = {
-
         index:(req, res) =>{
         res.render("pages/cadastroUsuario")
     }
+
+    
 
     
 }
