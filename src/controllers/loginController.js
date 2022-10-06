@@ -1,14 +1,10 @@
-
-const usuarioController = {
-
-        index:(req, res) =>{
-        res.render("pages/cadastroUsuario")
+const loginController = {
+    index:(req,res) =>{        
+        res.render("./pages/login")
     }
-
-    
 }
- module.exports = usuarioController
-
+//testando login
+module.exports = loginController
 
 
 /*const {createMenuObject} = require('../helpers/createMenuObject')
