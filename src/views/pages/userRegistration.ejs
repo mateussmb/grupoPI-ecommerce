@@ -1,0 +1,65 @@
+
+ <head>
+    <link rel="stylesheet" href="stylesheets/login.css">
+    <link rel="stylesheet" href="stylesheets/formCadastroUsuario.css">
+</head>
+
+ <section class="containerHeader">
+     <div class="logo">
+         <div class=" box-1">
+             <img class="imgLogo" src="images/iconLoginKabum.png" alt="logoKabum">
+             <div class="loginCadastro">
+                 <img  class="iconLogin" src="images/iconeeLogin.png" alt="login">
+                 <div class="BoxLoginCadastro">
+                     <p> &nbsp; Faça <a href=""><strong >LOGIN</strong></a></p>
+                     &nbsp; crie seu <a href=""><strong> CADASTRO</strong></a> 
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <nav class="barrinhaLaranja"></nav>
+
+
+
+ <form id="formCadastro" action="addUser" method="post">
+     <div>
+         <h1> CRIAR CONTA </h1>
+
+         <aside >
+             <div>
+                 <input class="campo" name="nome" type="text" placeholder=" &nbsp; &nbsp; Nome completo* " id="nome" required>
+             </div>
+
+             <div>
+                 <input class="campo" type="data" placeholder="&nbsp; &nbsp;&nbsp; &nbsp;Data de nascimento* " maskplaceholder="dd/mm/yyyy" value=""  required>
+             </div>
+
+         </aside>
+
+         <aside >
+             <div>
+                 <input class="campo" name="cpf" type="text" placeholder=" &nbsp; &nbsp; Numero do CPF*" id="cpf" required>
+             </div>
+
+             <div>
+                 <input class="campo" name="nascimento" type="data" placeholder=" &nbsp; &nbsp; Telefone celular* " required>
+             </div>
+
+         </aside>
+
+         <div class="input">
+             <div>
+                 <input class="campo" name="email" type="email" placeholder=" &nbsp; &nbsp; E-mail*" id="email" required>
+             </div>
+
+             <div>
+                 <input class="campo" name="password" type="password" placeholder=" &nbsp; &nbsp; Senha*" id="password" required>
+             </div>
+
+         </div>
+             <div class="btnCadastro">
+                 <button id="entrar">CADASTRAR</button>
+             </div>
+     </div>
+</form>

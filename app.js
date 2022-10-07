@@ -7,6 +7,7 @@ const methodOverride = require('method-override');
 
 const indexRouter = require('./src/routes/index');
 const usersRouter = require('./src/routes/users');
+const cadastroRouter = require('./src/routes/cadastro');
 
 const app = express();
 
@@ -24,11 +25,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+//routes for registration
+app.use('/cadastro',cadastroRouter)
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
   next(createError(404));
 });
+
+
 
 // error handler
 app.use((err, req, res, next) => {
