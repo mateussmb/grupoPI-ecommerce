@@ -1,6 +1,6 @@
-const usuarioController = {
-    adicionarUsuario:(req, res) =>{
-    res.render("./pages/cadastroUser")
+const userController = {
+    formAddUser:(req, res) =>{
+    res.render("pages/userRegistration")
 }
 }
-module.exports = usuarioController
+module.exports = userController
