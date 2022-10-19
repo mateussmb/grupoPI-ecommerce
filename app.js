@@ -1,13 +1,14 @@
 const createError = require('http-errors');
 const express = require('express');
+const session = require('express-session');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const methodOverride = require('method-override');
 
 const indexRouter = require('./src/routes/index');
-const usersRouter = require('./src/routes/users');
-const cadastroRouter = require('./src/routes/cadastro');
+const publicRouter = require('./src/routes/publicRouter');
+const  privateRouter = require('./src/routes/privateRouter');
 
 const app = express();
 
@@ -15,18 +16,26 @@ const app = express();
 app.set('views', path.join(__dirname, './src/views'));// implementado src
 app.set('view engine', 'ejs');
 
-// permite que o servidor use ó metodo PUT e Delete
+// Allow the server to use the PUT and DELETE method
+
 app.use(methodOverride('_method'))
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(session({
+  secret:'kabum',
+  saveUninitialized:true,
+  resave:true
+}))
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
-//routes for registration
-app.use('/cadastro',cadastroRouter)
+//Route from user prublic
+app.use('/', publicRouter);
+//Route from user extrict
+app.use('/', privateRouter);
+
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
