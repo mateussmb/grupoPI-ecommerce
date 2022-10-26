@@ -60,6 +60,8 @@ body {
     display: flex;
     writing-mode: horizontal-tb !important;
     align-items: center;
+    justify-content: space-evenly;
+    padding: auto;
 }
 
 .share{
@@ -127,41 +129,33 @@ body {
     color: black;
     font-weight: bold;
     font-size: 80%;
-    margin-bottom: 5%;
     margin-top: 2%;
 }
 
-.container-banner{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.black-friday{
-    display: grid;
-}
-
-.image-blackFriday{
-    display: grid;
-}
-
-#image-blackFriday{
-    display: flex;
-    width: 200px;
-}
 
 .container-cep{
     display: flex;
-    margin-top: 3%;
     flex-direction: column;
     justify-content: center;
+}
+
+.container-banner{
+    display: flex;
+}
+
+#banner{
+    display: flex;
+    width: 100%;
+    height: 300px !important;
+    height: fit-content;
+    margin-bottom: 5%;
+    justify-content: center;
+    align-items: center;
 }
 
 .frete{
     display: grid;
     justify-content: center;
-    margin-top: 2%;
     font-weight: bold;
 }
 
@@ -178,7 +172,8 @@ body {
     border-radius: 5%;
     border-color: white;
     align-items: center;
-    width: 60%;
+    width: 40%;
+    height: 90%;
 }
 
 .button-cep{
@@ -199,7 +194,6 @@ body {
 }
 
 #remember{
-    flex-shrink: 0;
     text-decoration: underline;
     color: rgb(255, 101, 0);
     display: flex;
@@ -209,6 +203,7 @@ body {
     font-weight: bold;
     font-size: 100%;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 .button-buy{
@@ -251,7 +246,6 @@ body {
     text-decoration: underline;
     color: rgb(86, 92, 105);
     margin-bottom: 5%;
-    cursor: pointer;
 }
 
 .description{
@@ -261,6 +255,14 @@ body {
 .description-text{
     display: flex;
     font-weight: bold;
+}
+
+.description-text1{
+    display: flex;
+    font-weight: bold;
+    font-size: 130%;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 .description-text2{
@@ -275,7 +277,7 @@ body {
     display: flex;
     font-weight: bold;
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     font-size: 120%;
 }
 
