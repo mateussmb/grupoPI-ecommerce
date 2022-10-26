@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body {
     font-family: Poppins, sans-serif !important;
@@ -99,6 +100,10 @@ body {
     image-rendering: auto;
 }
 
+#pictures{
+    width: 300px;
+}
+
 .container-price{
     display: grid;
     flex-direction: column;
@@ -108,7 +113,6 @@ body {
     display: grid;
     color:rgb(127, 133, 141);
     margin-top: 4%;
-
 }
 
 .price-pix{
@@ -125,6 +129,26 @@ body {
     font-size: 80%;
     margin-bottom: 5%;
     margin-top: 2%;
+}
+
+.container-banner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.black-friday{
+    display: grid;
+}
+
+.image-blackFriday{
+    display: grid;
+}
+
+#image-blackFriday{
+    display: flex;
+    width: 200px;
 }
 
 .container-cep{
@@ -151,7 +175,7 @@ body {
 #input-cep{
     display: grid;
     justify-content: center;
-    border-radius: 4%;
+    border-radius: 5%;
     border-color: white;
     align-items: center;
     width: 60%;
@@ -209,7 +233,25 @@ body {
     border-color: rgb(255, 101, 0);
     border-radius: 0.25rem;
     cursor: pointer;
+}
+
+.button-options{
+    display: flex;
+    justify-content: center;
+}
+
+.button-opt{
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 0.0625rem;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    color: rgb(86, 92, 105);
     margin-bottom: 5%;
+    cursor: pointer;
 }
 
 .description{
@@ -244,4 +286,5 @@ body {
     justify-items: center;
     max-height: 150%;
     height: 100%;
+    width: auto;
 }
