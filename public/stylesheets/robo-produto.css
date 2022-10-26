@@ -149,10 +149,11 @@ body {
 }
 
 #input-cep{
-    display: flex;
+    display: grid;
     justify-content: center;
     border-radius: 4%;
     border-color: white;
+    align-items: center;
     width: 60%;
 }
 
