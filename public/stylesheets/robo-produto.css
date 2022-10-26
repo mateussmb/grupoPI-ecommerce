@@ -36,6 +36,53 @@ body {
     font-size: 120%;
     margin-bottom: 2.5%;
     justify-content: center;
+    margin-bottom: 2%;
+}
+
+.icones{
+    display: flex;
+    margin-bottom: 4%;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    width: 80%;
+}
+
+.imageSmart{
+    display: flex;
+}
+
+.rating{
+    display: grid;
+}
+
+.stars{
+    display: flex;
+    writing-mode: horizontal-tb !important;
+    align-items: center;
+}
+
+.share{
+    display: flex;
+}
+
+.share-button{
+    display: grid;
+    background-color: white;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.favorite{
+    display: flex;
+}
+
+.favorite-button{
+    display: grid;
+    background-color: white;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
 }
 
  .produto{
@@ -161,6 +208,7 @@ body {
     border-color: rgb(255, 101, 0);
     border-radius: 0.25rem;
     cursor: pointer;
+    margin-bottom: 5%;
 }
 
 .description{
@@ -176,8 +224,8 @@ body {
     display: flex;
     font-weight: bold;
     font-size: 130%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 .description-text3{
