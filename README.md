@@ -9,4 +9,4 @@
 <p>-Para executar o projeto, utilize o comando: npm start</p>
 
 
-                                            <p><strong>----------->OBRIGADO!<-----------</strong></p>
+                                                              ----------->OBRIGADO!<-----------
