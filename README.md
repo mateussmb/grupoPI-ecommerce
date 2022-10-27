@@ -4,7 +4,7 @@
 
 <p>Fiquem atentos que tem algumas regrinhas antes de executar este projeto.</p>
 
-<p><strong>----------->REGRAS:</p></strong>
+                                                                ----------->REGRAS:
 <p>-No terminal, utilize o comando: npm install nodemon </p>
 <p>-Para executar o projeto, utilize o comando: npm start</p>
 
