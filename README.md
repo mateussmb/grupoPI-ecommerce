@@ -1,4 +1,4 @@
-                                      Olá!
+                                                                          Olá!
 
 <p>Este é um projeto de E-Commerce tendo como referência o site da KaBuM! (https://www.kabum.com.br).</p>
 
@@ -9,4 +9,4 @@
 <p>-Para executar o projeto, utilize o comando: npm start</p>
 
 
-<p><strong>----------->OBRIGADO!<-----------</strong></p>
+                                            <p><strong>----------->OBRIGADO!<-----------</strong></p>
