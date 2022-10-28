@@ -4,9 +4,15 @@
 
 <h4 align="center">Este é um projeto de E-Commerce tendo como referência o site da <a href="https://www.kabum.com.br" target="_blank" rel="noreferrer noopener">KaBuM!</a>.</h4>
 
-<p align="center"><b>Fiquem atentos que tem alguns pré-requisitos antes de executar este projeto.</b></p>
+<p align="center"><b>Fiquem atentos pois este projeto tem alguns pré-requisitos antes de ser executado.</b></p>
 <h1></h1>
 
+<div>
+  <h3 align="center">⚠ ATENÇÃO ⚠</h3>
+    <h4 align="center">	🚧 Estamos em construção 🚧</h4>
+</div>
+
+<h1></h1>
 <DIV align="center"><img src="https://user-images.githubusercontent.com/107892746/198664504-88c97247-474b-4ef2-903c-6eb2119df615.png" width="5%">
   <h3>PRÉ REQUISITOS</h3>
 </div>
