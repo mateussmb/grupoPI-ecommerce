@@ -36,11 +36,8 @@ Além disto é bom ter um editor para trabalhar com o código como <a href="http
   npm start
 ```
 
+
 ### O servidor inciará na porta:3000 - acesse <http://localhost:3000>
-
-
-
-
 
 <h1 align="center"> OBRIGADO! </h1>
 
