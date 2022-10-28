@@ -43,3 +43,12 @@ Além disto é bom ter um editor para trabalhar com o código como <a href="http
 
 
 <h1 align="center"> OBRIGADO! </h1>
+
+<div align="center"><h1>REPRESENTANTES DO PROJETO:</h1></div>
+
+<table align="center">
+  <tr>
+    <td align="center"><a href="https://github.com/WasseLucas"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/106719047?v=4" width="100px;" alt=""/><br /><sub><b>Wasse Lucas</b></sub></a><br />
+    <td align="center"><a href="https://github.com/mathe153"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/35440139?v=4" width="100px;" alt=""/><br /><sub><b>Matheus Ribeiro</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Rudegog"><img style="border-radius: 50%;" src="https://scontent.fcgh37-1.fna.fbcdn.net/v/t1.6435-9/39891578_1814412592005816_6965232765541285888_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=QYOHZMVFEDYAX9Tzlxu&_nc_ht=scontent.fcgh37-1.fna&oh=00_AfAltXPn-XcRRF0n_083sJca9CCrvFVe-wKQdaPn6ntzVw&oe=63824236" width="100px;" alt=""/><br /><sub><b>Matheus Gomes</b></sub></a><br />
+</table>
