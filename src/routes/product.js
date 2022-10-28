@@ -9,6 +9,9 @@ const upload = multer({storage})
 
 //*Rota para listar todos os produtos
 router.get('/',ProdutoController.index);
+
+router.get('/:id', ProdutoController.index)
+
 //*Rota para mostrar um produto
 router.get('/show/:id', ProdutoController.show);
  

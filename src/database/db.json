@@ -1,1 +1,47 @@
-{"produtos": [{}],"users":[{}] }
+{"produtos": [{
+    "id": "001",
+    "marca": "KaBuM! Smart",
+    "modelo": "Robô Aspirador Inteligente",
+    "preco": "854",
+    "status": "Ativo",
+    "quantidade": "35",
+    "altura": "76mm",
+    "cor": "Preto",
+    "voltagem": "14,4 Volts",
+    "Tipo de recarga": "carregamento automático e/ou manual",
+    "imagem": "IMG ASPIRADOR.svg"
+},
+{
+    "id": "002",
+    "modelo": "Processador AMD Ryzen 5 3600 Cache 32MB 3.6GHz(4.2GHz Max Turbo)",
+    "preco": "1199",
+    "status": "Ativo",
+    "quantidade": "35",
+    "cor": "",
+    "largura": "",
+    "garantia": "5",
+    "imagem": "IMG PROCE RYZEN.svg"
+},
+{
+    "id": "003",
+    "nome": "Headset Gamer Fallen Morcego, Surround Virtual 7.1",
+    "preco": "250",
+    "status": "Ativo",
+    "quantidade": "35",
+    "cor": "",
+    "largura": "",
+    "garantia": "5",
+    "imagem": "IMG HEADSET.svg"
+},
+{
+    "id": "004",
+    "nome": "Cadeira Gamer Alpha Gamer Vega, Preto, Reclinável, com Almofadas, Cilindro de Gás",
+    "preco": "1049",
+    "status": "Ativo",
+    "quantidade": "35",
+    "cor": "Preto",
+    "largura": "",
+    "garantia": "5",
+    "imagem": "IMG CADEIRA GAMER.svg"
+}
+],"users":[{}] }
