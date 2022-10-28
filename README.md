@@ -2,9 +2,9 @@
 
 <h4 align="center">Este é um projeto de E-Commerce tendo como referência o site da KaBuM! (https://www.kabum.com.br).</h4>
 
-<p>Fiquem atentos que tem algumas regrinhas antes de executar este projeto.</p>
+<p align="center">Fiquem atentos que tem algumas regrinhas antes de executar este projeto.</p>
 
-                                                                ----------->REGRAS:
+                                                                -----------><h1>REGRAS</h1><-----------
 <p>-No terminal, utilize o comando: </p>
    <p> npm install nodemon  </p> 
     
