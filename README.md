@@ -6,6 +6,7 @@
 
                                                                 ----------->REGRAS:
 <p>-No terminal, utilize o comando: npm install nodemon </p>
+<p>-Após, o comando: npm install bcrypt</p>
 <p>-Para executar o projeto, utilize o comando: npm start</p>
 
 
