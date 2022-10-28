@@ -15,23 +15,25 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
 
-### Clone este repositório
+### Abra o GIT e selecione a pasta que deseja abrir o projeto. Após selecionada, clone o arquivo:
 ```bash
+  git init
+  git remote add origin https://github.com/WasseLucas/grupoPI-ecommerce
   git clone https://github.com/WasseLucas/grupoPI-ecommerce
 ```
 
-### Na pasta do projeto, acesse via /cmd a pasta principal do projeto
+### Após a clonagem, abra o <a href="https://code.visualstudio.com/" target="_blank">VSCode</a> e abra o Terminal pressionando as teclas:
 ```bash
-  cd src
-```
+  CTRL + Shift + '
+```  
 
-### Instale as dependências
+### No Terminal, instale as dependências
 ```bash
   npm install nodemon
   npm install bcrypt
 ```
 
-### Execute a aplicação em modo de desenvolvimento
+### Após as instalações, vamos executar o projeto digitando no Terminal:
 ```bash
   npm start
 ```
