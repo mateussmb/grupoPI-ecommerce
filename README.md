@@ -25,7 +25,7 @@ Além disto é bom ter um editor para trabalhar com o código como <a href="http
 ```bash
   git init
   git remote add origin https://github.com/WasseLucas/grupoPI-ecommerce
-  git clone https://github.com/WasseLucas/grupoPI-ecommerce
+  git pull origin master
 ```
 
 ### Após a clonagem, abra o <a href="https://code.visualstudio.com/" target="_blank">VSCode</a> e abra o Terminal pressionando as teclas:
