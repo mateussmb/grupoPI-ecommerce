@@ -30,7 +30,10 @@ const UserController = {
         };
          // Renderiza a página de cadastro de usuário
         return res.render('./pages/formCadastro');
-    }
+    },
+    //CRIAR NOVA FUNÇÃO *CREATEUSER - CRIAR VARIÁVEL POST const { email, senha } = req.body; 
+    //USAR A FUNÇÃO CREATE DO SEQUELIZE PARA CRIAR USUÁRIO NO BANCO
+    //REDIRECIONAR PARA HOME
 };
 
 module.exports = UserController;
