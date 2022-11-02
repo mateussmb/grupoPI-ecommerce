@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs');
 
-const User = require('../models/usersModels');
+const User = require('../models/User');
 
 const UserController = {
   login: (req, res) => {
@@ -50,7 +50,7 @@ const UserController = {
     }
 
     // Renderiza a página de login
-    return res.render('login',  { error: null });
+    return res.render('pages/login',  { error: null });
   },
 
   renderAreaRestrita: (req, res) => {

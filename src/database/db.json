@@ -1,3 +1,24 @@
+
+{
+"users":[
+         {
+        "id":"c7319b72-301e-43fd-9e66-2c3f5f6dd78f",
+        "nome":"Wasse Lucas ",
+        "cpf":"012.910.122-20",
+        "email":"admin.admin@gmail.com",
+        "password":"$2a$10$ncZvaQvUMp6BFBZYmwGYeOaIW019gSpiX.Ij4zy8MVFqRYfMT9CFu"
+        },
+
+        {
+        "id":"ee0d11df-6546-4d55-883d-3a160a09b327",
+        "nome":"Gleidson leite",
+        "cpf":"012.910.122-20",
+        "email":"admin.linux@gmail.com",
+        "password":"$2a$10$x3u7Jr8AqTmNr6ilPEnjluYCUUVB75rSSwzAT82lDXWDvKNv23suy"
+        }
+    ]
+}
+=======
 {"produtos": [{
     "id": "001",
     "marca": "KaBuM! Smart",
@@ -44,4 +65,5 @@
     "garantia": "5",
     "imagem": "IMG CADEIRA GAMER.svg"
 }
-],"users":[{}] }
+] }
+
