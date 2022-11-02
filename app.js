@@ -8,7 +8,7 @@ const methodOverride = require('method-override');
 
 const indexRouter = require('./src/routes/index');
 const publicRouter = require('./src/routes/publicRouter');
-const  privateRouter = require('./src/routes/privateRouter');
+const privateRouter = require('./src/routes/privateRouter');
 
 const app = express();
 

@@ -48,19 +48,6 @@
         }
     ],
     "users": [
-        {
-            "id": "ba96b269-ace2-454b-a696-d73133debea1",
-            "nome": "Wasse Lucas Bezerra Ribamar",
-            "cpf": "234.432.233-21",
-            "email": "wasselucas.dev@gmail.com",
-            "password": "$2a$10$YM6uAqY8pyIjkoCmtI0CEeNUnbtsSuQvtvq/FEQSvC9sKo5Xtqnx2"
-        },
-        {
-            "id": "2e88e253-b3b8-4dac-b59e-b9ce3f4c69a2",
-            "nome": "david neres alves ",
-            "cpf": "012.910.122-20",
-            "email": "admin.admin@gmail.com",
-            "password": "$2a$10$vqysmjYq9XEw2muwuTNg6umpoabL3tf/X8lzBdC8djbrPUui20nv6"
-        }
+       
     ]
 }
