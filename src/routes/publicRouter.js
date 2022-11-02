@@ -1,6 +1,6 @@
 const express = require('express');
 
-const UserController = require('../controllers/userController');
+const UserController = require('../controllers/UserController');
 const AuthController = require('../controllers/AuthController');
 
 const router = express.Router();
@@ -16,7 +16,7 @@ router.get('/login', AuthController.renderLogin);
 
 // Renderiza a página de cadastro de usuário
 // Utiliza o middleware redirectAuthenticatedUser para redirecionar o usuário logado
-router.get('/sign-up', UserController.renderFormCadastro);
+router.get('/cadastro', UserController.renderFormCadastro);
 
 // Rota para fazer o login do usuário
 router.post('/login', AuthController.login);
