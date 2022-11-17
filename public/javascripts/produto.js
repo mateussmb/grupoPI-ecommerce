@@ -14,6 +14,7 @@ function funcao() {
     if(x == "888888888")  throw "Não é um CEP válido.";
     if(x == "999999999")  throw "Não é um CEP válido.";
     if(x == "000000000")  throw "Não é um CEP válido.";
+    if(x.length < 8 || x.length > 8) throw "Não é um CEP válido.";
     if(isNaN(x)) throw "Somente números aqui.";
     x = Number(x);
   }
