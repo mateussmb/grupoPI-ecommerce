@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../public/stylesheets/reset.css">
     <link rel="stylesheet" href="../public/stylesheets/produto.css">
+    <!-- <link rel="stylesheet" href="../public/javascripts/produto.js"> -->
     <link rel="icon" href="/public/images/kabum-icone.ico">
     <title>Robô Aspirador de Pó KaBuM! Smart 500, Preto - Recarregamento Automático, Filtro HEPA, Controle via
         Aplicativo-KBSF000 | KaBuM</title>
@@ -18,7 +19,7 @@
     <p class="barraLaranja"></p>
     <main class="container-principal">
         <div class="container-produto">
-            <p class="titulo">Robô Aspirador de Pó KaBuM! Smart 500, Preto - Recarregamento Automático, Filtro HEPA,
+            <p class="titulo" text-truncate>Robô Aspirador de Pó KaBuM! Smart 500, Preto - Recarregamento Automático, Filtro HEPA,
                 Controle via
                 Aplicativo - KBSF000</p>
 
@@ -162,8 +163,10 @@
                     </p>
                     <div class="input-cep">
                         <input type="text" maxlength="9" size="10" name="" id="input-cep" placeholder="Inserir CEP">
-                        <button class="button-cep" type="submit">OK</button>
+                        <button class="button-cep" type="submit" onclick="funcao()">OK</button>
                     </div>
+                    <p id="message"></p>
+
                     <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" id="remember" target="_blank"
                         rel="noreferrer noopener">Não lembro meu
                         CEP</a>
@@ -377,6 +380,30 @@
     mainContainer.addEventListener('mouseout', function () {
         removeOpacity();
     })
+
+    function funcao() {
+  const message = document.getElementById("message");
+  message.innerHTML = "CEP validado com sucesso!";
+  let x = document.getElementById("input-cep").value;
+  try { 
+    if(x == "")  throw "O campo está vazio.";
+    if(x == "111111111")  throw "Não é um CEP válido.";
+    if(x == "222222222")  throw "Não é um CEP válido.";
+    if(x == "333333333")  throw "Não é um CEP válido.";
+    if(x == "444444444")  throw "Não é um CEP válido.";
+    if(x == "555555555")  throw "Não é um CEP válido.";
+    if(x == "666666666")  throw "Não é um CEP válido.";
+    if(x == "777777777")  throw "Não é um CEP válido.";
+    if(x == "888888888")  throw "Não é um CEP válido.";
+    if(x == "999999999")  throw "Não é um CEP válido.";
+    if(x == "000000000")  throw "Não é um CEP válido.";
+    if(isNaN(x)) throw "Somente números aqui.";
+    x = Number(x);
+  }
+  catch(err) {
+    message.innerHTML = "Opa! " + err;
+  }
+}
 </script>
 
 </html>

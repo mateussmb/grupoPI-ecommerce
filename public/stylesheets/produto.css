@@ -193,6 +193,15 @@ body {
     height: 100%;
 }
 
+#message{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
 #remember{
     text-decoration: underline;
     color: rgb(255, 101, 0);
