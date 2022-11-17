@@ -12,11 +12,12 @@
             "voltagem": "14,4 Volts",
             "garantia": "1",
             "Tipo de recarga": "carregamento automático e/ou manual",
-            "imagem": "IMG ASPIRADOR.svg"
+            "imagem": "IMG ASPIRADOR.svg",
+            "description1": "Conforto e praticidade na limpeza diária do seu lar! Que tal não se preocupar mais em varrer, aspirar e passar pano todos os dias? Com o <b>Robô Aspirador de Pó KaBuM! Smart você curte seu dia, enquanto ele limpa!"
         },
         {
             "id": "002",
-            "marca":"",
+            "marca": "",
             "modelo": "Processador AMD Ryzen 5 3600 Cache 32MB 3.6GHz(4.2GHz Max Turbo)",
             "preco": "1199",
             "status": "Ativo",
@@ -36,7 +37,7 @@
             "largura": "",
             "garantia": "5",
             "imagem": "IMG HEADSET.svg",
-            "categoria":"eletronicos"
+            "categoria": "eletronicos"
         },
         {
             "id": "004",
@@ -61,7 +62,5 @@
             "imagem": "IMG CADEIRA GAMER.svg"
         }
     ],
-    "users": [
-       
-    ]
+    "users": []
 }
