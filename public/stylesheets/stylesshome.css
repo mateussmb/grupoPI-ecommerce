@@ -241,6 +241,14 @@
     width: 100%;
 }
 
+.caixagrande{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .caixa {
     background-color: #ff6500;
     display: flex;
@@ -290,7 +298,14 @@
     font-size: 35px;
 }
 
+.banner-proximo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .fundoItens {
+
     background-color: #fafafb;
     max-width: 100%;
     max-height: auto;
@@ -301,6 +316,7 @@
     justify-content: space-evenly;
     padding: 20px 40px;
     height: 100%;
+    flex-direction: column;
     
 }
 
@@ -358,6 +374,10 @@
 
 #texto {
     width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     padding-left: 15px;
     margin-bottom: 15px;
     font-style: normal;
@@ -480,7 +500,7 @@
 }
 
 #caixaB {
-    width: 45px;
+    width: 60px;
     height: 45px;
     padding: 1px 0px 3px;
     border-radius: 5px;

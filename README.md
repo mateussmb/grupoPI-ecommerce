@@ -35,7 +35,8 @@ Além disto é bom ter um editor para trabalhar com o código como <a href="http
 
 ### No Terminal, instale as dependências
 ```bash
-  npm install
+  npm install nodemon
+  npm install bcrypt
 ```
 
 ### Após as instalações, vamos executar o projeto digitando no Terminal:

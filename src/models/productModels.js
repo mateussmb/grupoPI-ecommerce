@@ -5,9 +5,9 @@ const { v4 } = require('uuid');
 const { dirname } = require("path")
 const appDirectory = dirname(require.main.filename)
 
-let bancoProdutos = require('../database/bancoProdutos.json');
+let bancoProdutos = require('../database/db.json');
 
-const { uploadPath } = require('../config/upload.js');
+const { uploadPath } = require('../settings/upload.js');
 
 const writeToDB = () => {
     const json = JSON.stringify(bancoProdutos);
@@ -22,6 +22,11 @@ const Produto = {
     findById:(id) => {
         const produto = bancoProdutos.produtos.find(produto => produto.id ===id);
         return produto;
+    },
+
+    findByCategoria:(categoria) =>{
+        const produtos = bancoProdutos.produtos.filter(produto => produto.categoria === categoria)
+        return produtos
     },
 
     removeAvatar:() =>{

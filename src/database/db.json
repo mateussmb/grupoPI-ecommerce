@@ -28,18 +28,30 @@
         },
         {
             "id": "003",
-            "nome": "Headset Gamer Fallen Morcego, Surround Virtual 7.1",
+            "modelo": "Headset Gamer Fallen Morcego, Surround Virtual 7.1",
             "preco": "250",
             "status": "Ativo",
-            "quantidade": "35",
+            "quantidade": "40",
             "cor": "",
             "largura": "",
             "garantia": "5",
-            "imagem": "IMG HEADSET.svg"
+            "imagem": "IMG HEADSET.svg",
+            "categoria":"eletronicos"
         },
         {
             "id": "004",
-            "nome": "Cadeira Gamer Alpha Gamer Vega, Preto, Reclinável, com Almofadas, Cilindro de Gás",
+            "modelo": "Cadeira Gamer Alpha Gamer Vega, Preto, Reclinável, com Almofadas, Cilindro de Gás",
+            "preco": "1049",
+            "status": "Ativo",
+            "quantidade": "35",
+            "cor": "Preto",
+            "largura": "",
+            "garantia": "5",
+            "imagem": "IMG CADEIRA GAMER.svg"
+        },
+        {
+            "id": "004",
+            "modelo": "Cadeira Gamer Alpha Gamer Vega, Preto, Reclinável, com Almofadas, Cilindro de Gás",
             "preco": "1049",
             "status": "Ativo",
             "quantidade": "35",
